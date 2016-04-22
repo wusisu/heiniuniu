@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://heiniuniu.wusisu.com/heiniuniu
-root: /heiniuniu/
+url: http://heiniuniu.wusisu.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -69,5 +69,6 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: ssh://root@ali.wusisu.com:/repos/heiniuniu
+  # repository: ssh://root@ali.wusisu.com:/repos/heiniuniu
+  repository: git@github.com:wusisu/heiniuniu.git
   branch: gh-pages
